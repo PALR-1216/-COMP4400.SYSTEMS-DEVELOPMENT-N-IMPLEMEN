@@ -16,22 +16,21 @@
 
 <h1 style="text-align: center;">Add Tenant</h1>
 <form>
-  <div class="input-group mb-3">
-    <label for="Name" class="input-group-text">Name of Tenant</label>
+  <div class="mb-3">
+    <label for="Name" class="form-label">Name of Tenant</label>
     <input type="Name" class="form-control" id="Name">
 
   </div>
-  <div class="input-group mb-3">
-    <label for="Apa_Number" class="input-group-text">Apartment Number</label>
-    <input type="number" class="form-control" id="Apa_Number">
-  </div>
-
-  <div class="input-group mb-3">
-    <label for="Phone_Number" class="input-group-text">Phone Number</label>
-    <input type="number" class="form-control" id="Phone_Number">
+  <div class="mb-3">
+    <label for="Apa_Number" class="form-label">Apartment Number</label>
+    <input type="Number" class="form-control" id="Apa_Number" name="Apa_Number">
   </div>
 
   <div class="mb-3">
+    <label for="Phone_Number" class="form-label">Phone Number</label>
+    <input type="number" class="form-control" id="Phone_Number">
+  </div>
+
 
   
   <div class="input-group mb-3">
