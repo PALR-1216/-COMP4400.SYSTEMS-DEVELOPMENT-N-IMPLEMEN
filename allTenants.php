@@ -11,6 +11,8 @@
     <title>Document</title>
 </head>
 <body>
+    
+    <a style="padding: 10px;" href="AddTenant.php">Add Tenant</a>
 
 
 <table class="table table-bordered">
@@ -34,8 +36,8 @@
             <th>939-414-1159</th>
             <th>palr12162000@gmail.com</th>
             <th>4444</th>
-            <th style="text-align: center;"> <a href="editTenant.php" class="bi bi-pencil-square" style="text-align: center; font-size: 25px;"></a></th>
-            <th style="text-align: center;"><a href="#" class="bi bi-trash" style="color:red; font-size:25px;"></a></th>
+            <th style=""> <a href="editTenant.php" class="bi bi-pencil-square" style="text-align: center; font-size: 25px;"></a></th>
+            <th style=""><a href="#" class="bi bi-trash" style="color:red; font-size:25px;"></a></th>
         </tr>
 
 
