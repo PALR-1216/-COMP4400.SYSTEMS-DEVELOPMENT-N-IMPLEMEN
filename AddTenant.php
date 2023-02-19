@@ -18,9 +18,22 @@
 <form>
   <div class="mb-3">
     <label for="Name" class="form-label">Name of Tenant</label>
-    <input type="Name" class="form-control" id="Name">
+    <input type="Name" class="form-control" id="Name" name="Name">
 
   </div>
+
+  <div class="mb-3">
+    <label for="Username" class="form-label">Username</label>
+    <input type="Username" class="form-control" id="Username" name="Username">
+
+  </div>
+  <div class="mb-3">
+    <label for="Password" class="form-label">Password</label>
+    <input type="Password" class="form-control" id="Name" name="Password">
+
+  </div>
+
+
   <div class="mb-3">
     <label for="Apa_Number" class="form-label">Apartment Number</label>
     <input type="Number" class="form-control" id="Apa_Number" name="Apa_Number">
@@ -30,6 +43,8 @@
     <label for="Phone_Number" class="form-label">Phone Number</label>
     <input type="number" class="form-control" id="Phone_Number">
   </div>
+
+
 
 
   

@@ -22,7 +22,7 @@
       <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:8px; overflow-y: scroll;">
 
       <h1>Total tenants 24 <span class="bi bi-house-door-fill"></span></h1>
-      <h1>Total People Rent Due 19 <span style="color: Red;" class="bi bi-credit-card-2-back-fill"></span></h1>
+      <h1>Total people Due 19 <span style="color: Red;" class="bi bi-credit-card-2-back-fill"></span></h1>
       <h1>Total People Paid 5 <span style="color: green;" class="bi bi-credit-card-2-back-fill"></span></h1>
 
       </div>
@@ -34,7 +34,8 @@
       <table class="table">
     <thead>
       <tr>
-        <th scope="col">Apartment</th>
+        <th scope="col">ID</th>
+        <th scope="col">Apartment Number</th>
         <th scope="col">Name</th>
         <th scope="col">Rent</th>
         <th scope="col">Complaint</th>
@@ -55,14 +56,16 @@
 <div class="col">
     
     <!-- if complain is  == 0 then do not show table -->
-    <?php include("DashBoardChart.php")?>
+    <?php include("DashBoardChart.php");?>
     </div>
+
 
 
 
 <div class="col">
     
     <!-- if complain is  == 0 then do not show table -->
+
     </div>
 
 

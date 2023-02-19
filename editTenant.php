@@ -18,11 +18,27 @@
 
   <form>
   <div class="mb-3">
+    <label class="form-label">Name of Tenant</label>
     <input type="Text" class="form-control" id="Name" placeholder="" value="Pedro">
     
   </div>
+
   <div class="mb-3">
-    <input type="password" class="form-control" id="Apartment_Number" placeholder="enter Apartment Number">
+    <label class="form-label">Username </label>
+    <input type="Text" class="form-control" id="Name" placeholder="" value="Pedro 110">
+    
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Password</label>
+    <input type="Text" class="form-control" id="Name" placeholder="" value="Alejandro12345">
+    
+    
+  </div>
+
+  <div class="mb-3">
+  <label class="form-label">Apartment Number</label>
+    <input type="Number" class="form-control" id="Apartment_Number" placeholder="enter Apartment Number" value="110">
   </div>
   
   <button type="submit" class="btn btn-primary">Submit</button>
