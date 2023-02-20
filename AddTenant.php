@@ -49,7 +49,7 @@
 
   
   <div class="input-group mb-3">
-  <span class="input-group-text">Deposit</span>
+  <span class="input-group-text">Deposit $</span>
   <input type="Number" class="form-control" id="Deposit" name="Deposit">
 
 </div>

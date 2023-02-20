@@ -27,12 +27,24 @@
          
 
           <li class="nav-item">
-            <a class="nav-link" href="">Complaints</a>
+            <a class="nav-link" href="Complaints.php">Complaints</a>
           </li>
           
           <li class="nav-item">
             <a class="nav-link" href="allTenants.php" tabindex="-1" aria-disabled="true">All Tenants</a>
           </li>
+
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Apartment's Report</a></li>
+            <li><a class="dropdown-item" href="#">Apartment's Balance / Due Report</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+
         </ul>
         <form class="d-flex" action="index.php">
           <button class="btn btn-outline-danger" type="submit">LogOut</button>
