@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,9 +47,10 @@
 
 
         </ul>
-        <form class="d-flex" action="index.php">
-          <button class="btn btn-outline-danger" type="submit">LogOut</button>
-        </form>
+        <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search Apartment #" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
       </div>
     </div>
   </nav>
@@ -72,3 +74,7 @@
   }
 </style>
 </html>
+
+
+
+

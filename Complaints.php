@@ -1,3 +1,5 @@
+<?php include ("_navbar.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +11,67 @@
     <title>Complaints!</title>
 </head>
 <body>
+
+<table class="table table-bordered">
+
+<thead>
+    <tr>
+        <th>Complaint ID</th>
+        <th>User ID</th>
+        <th>Apartment Number</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Date Issued</th>
+        <th>Status</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+</thead>
+
+<tbody>
+
+<tr>
+    <th>1</th>
+    <th>10</th>
+    <th>120</th>
+    <th>Pedro</th>
+    <th>Door Does not work</th>
+    <th>2/21/2023</th>
+    <th class="table-warning">Pending</th>
+    <!-- <th>
+    <select class="form-select" aria-label="Default select example">
+  <option selected>Pending</option>
+  <option value="1">Solved</option>
+</select>
+    </th> -->
+    <th style=""> <a href="editTenant.php" class="bi bi-pencil-square" style="text-align: center; font-size: 25px;"></a></th>
+    <th style=""><a href="#" class="bi bi-trash" style="color:red; font-size:25px;"></a></th>
+</tr>
+
+<tr>
+    <th>2</th>
+    <th>12</th>
+    <th>200</th>
+    <th>Alejandro</th>
+    <th>Water comes out Cold</th>
+    <th>2/22/2023</th>
+    <th class="table-success"> <span class="bi bi-check2-circle"></span>Solved</th>
+
+    <th style=""> <a href="editTenant.php" class="bi bi-pencil-square" style="text-align: center; font-size: 25px;"></a></th>
+    <th style=""><a href="#" class="bi bi-trash" style="color:red; font-size:25px;"></a></th>
+
+</tr>
+
+</tbody>
+
+
+
+</table>
+
+
+
+
+
 
 
 
