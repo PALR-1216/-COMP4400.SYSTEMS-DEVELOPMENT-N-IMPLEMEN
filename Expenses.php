@@ -12,8 +12,47 @@
 </head>
 <body>
 
+<a style="padding: 10px; " href="AddExpense.php" class="bi bi-plus-circle">Add Expense</a>
 
-<h1 style="text-align:center;">Total Expenses: <strong>2500</strong></h1>
+<h1 style="text-align:center;">Total Expenses: <strong>$2500</strong></h1>
+
+
+<?php
+ 
+ $dataPoints = array(
+	array("label"=> "Eletricity Bill", "y"=> 1000),
+	array("label"=> "Water", "y"=> 400),
+	array("label"=> "Maintenance ", "y"=> 2000),
+	array("label"=> "Staff", "y"=> 172),
+	array("label"=> "Insurance", "y"=> 500)
+);
+ 
+?>
+<script>
+window.onload = function() {
+ 
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	theme: "light2",
+	
+	
+	data: [{
+		type: "column",
+		yValueFormatString: "#,##0.## Dollars",
+		dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
+	}]
+});
+chart.render();
+ 
+}
+</script>
+
+<div class="container">
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+
+
+</div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
 
 
