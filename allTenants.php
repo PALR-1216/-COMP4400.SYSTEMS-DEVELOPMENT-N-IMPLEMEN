@@ -13,6 +13,8 @@
 <body>
     
     <a style="padding: 10px; " href="AddTenant.php" class="bi bi-plus-circle">Add Tenant</a>
+    <button style="margin:5px" class="btn btn-primary" onclick="window.print()"> <span style="padding-left:5px;" class="bi bi-printer-fill"></span> Tenant Report</button>
+
 
     <!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.."> -->
 

@@ -25,21 +25,21 @@
                   <h4 class="mt-1 mb-5 pb-1">We are Rosario's Condo's</h4>
                 </div>
 
-                <form>
+                <form method="POST" action="ClientHome.php">
                   <p>Please login to your account</p>
 
                   <div class="form-outline mb-4">
-                    <input type="email" id="userName" class="form-control" />
+                    <input required type="text" id="userName" class="form-control" />
                     <label class="form-label" for="username">Username</label>
                   </div>
 
                   <div class="form-outline mb-4">
-                    <input type="password" id="password" class="form-control" />
+                    <input required type="password" id="password" class="form-control" />
                     <label class="form-label" for="password">Password</label>
                   </div>
 
                   <div class="text-center pt-1 mb-5 pb-1">
-                    <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log
+                    <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit">Log
                       in</button>
                       <p class="message">Login as Admin <a href="login.php">Login</a></p>
                   </div>
@@ -52,9 +52,10 @@
             <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
               <div class="text-white px-3 py-4 p-md-5 mx-md-4">
                 <h4 class="mb-4">We are more than just a company</h4>
-                <p class="small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p class="small mb-0">Rosario's Condo is a condominium that has great security.
+                  Provides housing for people applying under Section 8 and other government-provided assistance.
+                  Guarantees the maintenance of the apartment, since we have personal gardening, plumbing and electricity.
+                  It is designed for atmospheric events such as hurricanes and earthquakes.</p>
               </div>
             </div>
           </div>

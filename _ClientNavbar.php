@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedro Lorenzo!</title>
+    <title>Welcome User</title>
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
 
 </head>
@@ -22,27 +21,30 @@
       <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="Home.php">DashBoard</a>
+            <a class="nav-link" aria-current="page" href="ClientHome.php">Home</a>
           </li>
 
          
 
           <li class="nav-item">
-            <a class="nav-link" href="Complaints.php">Complaints</a>
+            <a class="nav-link" href="Complaints.php">Make a Complaint</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="allTenants.php" tabindex="-1" aria-disabled="true">All Tenants</a>
+            <a class="nav-link" href="allTenants.php" tabindex="-1" aria-disabled="true">My Balance</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="Expenses.php" tabindex="-1" aria-disabled="true">Expenses</a>
+            <a class="nav-link" href="Expenses.php">My Previous Bills</a>
           </li>
+
+        
+
+
         </ul>
-        <form class="d-flex">
-      <input class="form-control me-2" type="search" placeholder="Search Apartment #" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
+        <form class="d-flex" action="index.php">
+          <button class="btn btn-outline-danger" type="submit">LogOut</button>
+        </form>
       </div>
     </div>
   </nav>
@@ -66,7 +68,3 @@
   }
 </style>
 </html>
-
-
-
-

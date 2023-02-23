@@ -11,7 +11,7 @@
     <title>Complaints!</title>
 </head>
 <body>
-
+    <button style="margin:5px" class="btn btn-primary" onclick="window.print()"> <span style="padding-left:5px;" class="bi bi-printer-fill"></span> Complaint Report</button>
 <table class="table table-bordered">
 
 <thead>
@@ -24,7 +24,7 @@
         <th>Date Issued</th>
         <th>Status</th>
         <th>Edit</th>
-        <th>Delete</th>
+        <!-- <th>Delete</th> -->
     </tr>
 </thead>
 
@@ -44,8 +44,8 @@
   <option value="1">Solved</option>
 </select>
     </th> -->
-    <th style=""> <a href="editTenant.php" class="bi bi-pencil-square" style="text-align: center; font-size: 25px;"></a></th>
-    <th style=""><a href="#" class="bi bi-trash" style="color:red; font-size:25px;"></a></th>
+    <th style=""> <a href="EditComplaints.php" class="bi bi-pencil-square" style="text-align: center; font-size: 25px;"></a></th>
+    <!-- <th style=""><a href="#" class="bi bi-trash" style="color:red; font-size:25px;"></a></th> -->
 </tr>
 
 <tr>
@@ -58,7 +58,7 @@
     <th class="table-success"> <span class="bi bi-check2-circle"></span>Solved</th>
 
     <th style=""> <a href="editTenant.php" class="bi bi-pencil-square" style="text-align: center; font-size: 25px;"></a></th>
-    <th style=""><a href="#" class="bi bi-trash" style="color:red; font-size:25px;"></a></th>
+    <!-- <th style=""><a href="#" class="bi bi-trash" style="color:red; font-size:25px;"></a></th> -->
 
 </tr>
 
