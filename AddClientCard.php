@@ -54,7 +54,7 @@
 
             <div class="form-outline mb-4">
               <input type="text" id="formControlLgXsd" class="form-control form-control-lg"
-                value="Anna Doe" />
+                value="Pedro Lorenzo's Card" />
               <label class="form-label" for="formControlLgXsd">Cardholder's Name</label>
             </div>
 

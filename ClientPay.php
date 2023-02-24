@@ -26,7 +26,16 @@
          
             <h4 class="text-success">$500.00</h4>
             <h4>Monthly Rent Amount</h4>
-            <h3>Due <strong>12/14/2023</strong></h3>
+
+            <div class="d-flex pt-2">
+              <div>
+                <p>
+                  <b>Due Date: <span class="text-success">12/24/2023</span></b>
+                </p>
+              </div>
+            </div>
+
+
             <div class="d-flex pt-2">
               <div>
                 <p>
@@ -35,6 +44,7 @@
               </div>
             </div>
 
+           
 
             <div class="d-flex">
               <div>
@@ -52,11 +62,6 @@
             <hr />
             <div class="pt-2">
               <div class="d-flex pb-2">
-                <div>
-                  <p>
-                    <b>Patient Balance <span class="text-success">$13.24</span></b>
-                  </p>
-                </div>
                 <div class="ms-auto">
                   <p class="text-primary">
                     <a  href="AddClientCard.php" class="fas fa-plus-circle text-primary pe-1">Add payment card</a>
@@ -82,6 +87,8 @@
                     <div class="ms-auto">************3456</div>
                   </div>
                 </div>
+
+                <!-- if no card then show Big button add Card -->
 
                 <div class="d-flex flex-row">
                   <div class="d-flex align-items-center pe-2">
@@ -114,23 +121,20 @@
 
               <div class="p-2 d-flex">
                 <div class="col-8">Contracted Price</div>
-                <div class="ms-auto">$186.76</div>
+                <div class="ms-auto">$500</div>
               </div>
              
-              <div class="p-2 d-flex">
-                <div class="col-8">Copayment</div>
-                <div class="ms-auto">+ $40.00</div>
-              </div>
+           
               <div class="border-top px-2 mx-2"></div>
               <div class="p-2 d-flex pt-3">
                 <div class="col-8">Total Deductible, Coinsurance, and Copay</div>
-                <div class="ms-auto">$40.00</div>
+                <div class="ms-auto">$80.00</div>
               </div>
              
               <div class="border-top px-2 mx-2"></div>
               <div class="p-2 d-flex pt-3">
-                <div class="col-8">Insurance Responsibility</div>
-                <div class="ms-auto"><b>$71.76</b></div>
+                <div class="col-8">Insurance</div>
+                <div class="ms-auto"><b>$50.76</b></div>
               </div>
               <div class="p-2 d-flex">
                 <div class="col-8">
