@@ -38,6 +38,12 @@
           <li class="nav-item">
             <a class="nav-link" href="Expenses.php" tabindex="-1" aria-disabled="true">Expenses</a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="TotalIncome.php">Total Monthly Income</a>
+          </li>
+
+          
         </ul>
         <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="Search Apartment #" aria-label="Search">

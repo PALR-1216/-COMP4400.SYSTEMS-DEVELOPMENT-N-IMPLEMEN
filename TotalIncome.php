@@ -24,7 +24,7 @@
     <div class="mb-3" style="padding:20px">
         <label class="form-label">Enter Month to show in graph</label>
         <input type="date" required class="form-control" name="MonthDate" placeholder="Enter Date"/>
-        <button type="submit" class="btn btn-primary">Search Date</button>
+        <button type="submit" id="SubmitDate" class="btn btn-primary">Search Date</button>
     </div>
 </form>
 
@@ -40,21 +40,22 @@
 ?>
 <script>
 window.onload = function() {
- 
-var chart = new CanvasJS.Chart("chartContainer", {
-	animationEnabled: true,
-	theme: "light2",
+
+
+        var chart = new CanvasJS.Chart("chartContainer", {
+	    animationEnabled: true,
+	    theme: "light2",
 	
-	
-	data: [{
-		type: "column",
-        showInLegend: "false",
-		yValueFormatString: "$#,##0",
-        legendText: "{label}",
-		dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
-	}]
-});
-chart.render();
+        
+        data: [{
+            type: "column",
+            showInLegend: "false",
+            yValueFormatString: "$#,##0",
+            legendText: "{label}",
+            dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
+        }]
+    });
+        chart.render();
  
 }
 </script>
