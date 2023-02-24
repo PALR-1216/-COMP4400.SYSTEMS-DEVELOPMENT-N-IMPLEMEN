@@ -18,7 +18,7 @@
 
 
 
-<h1 style="text-align:center;">Total Expenses: <strong>$2500</strong></h1>
+<h1 style="text-align:center;">Total Expenses: <strong>$4,000</strong></h1>
 
 
 <?php
@@ -72,7 +72,7 @@ chart.render();
         <th>1000</th>
         <th>Eletricity Bill</th>
         <th>2/24/2023</th>
-        <th style=""> <a href="editTenant.php" class="bi bi-pencil-square" style="text-align: center; font-size: 25px;"></a></th>
+        <th style=""> <a href="EditExpenses.php" class="bi bi-pencil-square" style="text-align: center; font-size: 25px;"></a></th>
         <th style=""><a href="#" class="bi bi-trash" style="color:red; font-size:25px;"></a></th>
 
     </tr>
@@ -81,7 +81,7 @@ chart.render();
         <th>400</th>
         <th>Water Bill</th>
         <th>2/24/2023</th>
-        <th style=""> <a href="editTenant.php" class="bi bi-pencil-square" style="text-align: center; font-size: 25px;"></a></th>
+        <th style=""> <a href="EditExpenses.php" class="bi bi-pencil-square" style="text-align: center; font-size: 25px;"></a></th>
         <th style=""><a href="#" class="bi bi-trash" style="color:red; font-size:25px;"></a></th>
 
     </tr>

@@ -44,21 +44,32 @@
     <input type="number" class="form-control" id="Phone_Number">
   </div>
 
+  <div class="mb-3">
+    <label for="Email" class="form-label">Email</label>
+    <input type="Email" class="form-control" id="Email">
+  </div>
 
 
+  <div class="input-group mb-3">
+  <span class="input-group-text">Due Date</span>
+  <input type="Date" class="form-control" id="Due_Date" name="Due_Date">
 
+  </div>
   
   <div class="input-group mb-3">
   <span class="input-group-text">Deposit $</span>
-  <input type="Number" class="form-control" id="Deposit" name="Deposit">
+  <input type="Number"  class="form-control" id="Deposit" name="Deposit">
 
-</div>
-  
+  </div>
+
+ 
   <button type="submit" class="btn btn-primary">Add Tenant</button>
 </form>
 
 </div>
 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>

@@ -38,6 +38,10 @@
             <a class="nav-link" href="Expenses.php">Expenses</a>
           </li>
 
+          <li class="nav-item">
+            <a class="nav-link" href="TotalIncome.php">Total Monthly Income</a>
+          </li>
+
         
 
 

@@ -30,6 +30,11 @@
   </div>
 
   <div class="mb-3">
+    <label for="Email" class="form-label">Email</label>
+    <input type="Email" class="form-control" id="Email" value="palr12162000@gmail.com">
+  </div>
+
+  <div class="mb-3">
     <label class="form-label">Password</label>
     <input type="Text" class="form-control" id="Name" placeholder="" value="Alejandro12345">
     

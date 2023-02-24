@@ -53,14 +53,26 @@
 
 <div class="row">
   <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:8px;">
-    <h1>Total Monthly Rent</h1>
+  <div class="totalIncome" style="text-align: center;">
+
+  <h1 style="padding-bottom:30px; font-weight:bold;">Total Monthly Income</h1>
+    <h3>Total Rent: <strong>14,400</strong></h3>
+    <h3>Total Mintenance: <strong>1,920</strong></h3>
+    <h3>Total Insurance: <strong>65</strong></h3>
+
+  </div>
+ 
   </div>
 
-<div class="col">
+<!-- <div class="col"> -->
     
     <!-- if complain is  == 0 then do not show table -->
+    <div class="container">
     <?php include("DashBoardChart.php");?>
+
     </div>
+    
+    <!-- </div> -->
 
 
 
