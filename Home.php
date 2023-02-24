@@ -52,6 +52,9 @@
 
 
 <div class="row">
+  <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:8px;">
+    <h1>Total Monthly Rent</h1>
+  </div>
 
 <div class="col">
     

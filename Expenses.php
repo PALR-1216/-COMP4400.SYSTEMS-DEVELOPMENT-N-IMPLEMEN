@@ -12,7 +12,11 @@
 </head>
 <body>
 
-<a style="padding: 10px; " href="AddExpense.php" class="bi bi-plus-circle">Add Expense</a>
+        <a class="btn btn-primary" style="" href="AddExpense.php"> <span class="bi bi-currency-dollar"></span>Add Expense</a>
+        <button style="margin:5px" class="btn btn-primary" onclick="window.print()"> <span style="padding-left:5px;" class="bi bi-printer-fill"></span> Expenses Report</button>
+
+
+
 
 <h1 style="text-align:center;">Total Expenses: <strong>$2500</strong></h1>
 
@@ -38,7 +42,9 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	
 	data: [{
 		type: "column",
-		yValueFormatString: "#,##0.## Dollars",
+        showInLegend: "false",
+		yValueFormatString: "$#,##0",
+        legendText: "{label}",
 		dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
 	}]
 });
@@ -46,10 +52,53 @@ chart.render();
  
 }
 </script>
-
 <div class="container">
 <div id="chartContainer" style="height: 370px; width: 100%;"></div>
 
+
+<table class="table" style="margin-top:30px">
+    <thead>
+        <tr>
+            <th>Expense Amount</th>
+            <th>Expense Name</th>
+            <th>Date Expense Added</th>
+            <th>Edit Expense</th>
+            <th>Delete Expense</th>
+        </tr>
+    </thead>
+
+<tbody>
+    <tr>
+        <th>1000</th>
+        <th>Eletricity Bill</th>
+        <th>2/24/2023</th>
+        <th style=""> <a href="editTenant.php" class="bi bi-pencil-square" style="text-align: center; font-size: 25px;"></a></th>
+        <th style=""><a href="#" class="bi bi-trash" style="color:red; font-size:25px;"></a></th>
+
+    </tr>
+
+    <tr>
+        <th>400</th>
+        <th>Water Bill</th>
+        <th>2/24/2023</th>
+        <th style=""> <a href="editTenant.php" class="bi bi-pencil-square" style="text-align: center; font-size: 25px;"></a></th>
+        <th style=""><a href="#" class="bi bi-trash" style="color:red; font-size:25px;"></a></th>
+
+    </tr>
+
+    <tr>
+        <th>2000</th>
+        <th>Maintenance Bill</th>
+        <th>2/24/2023</th>
+        <th style=""> <a href="editTenant.php" class="bi bi-pencil-square" style="text-align: center; font-size: 25px;"></a></th>
+        <th style=""><a href="#" class="bi bi-trash" style="color:red; font-size:25px;"></a></th>
+
+    </tr>
+
+
+    
+</tbody>
+</table>
 
 </div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
