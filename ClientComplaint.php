@@ -15,7 +15,7 @@
 
 <h1 style="text-align:center;">Make a Complaint</h1>
 
-<div class="container">
+<div class="container" style="background-color: #f6f6f6; border-radius:5px; padding:20px">
 <form>
     <div class="mb-3">
         <label class="form-label">Enter Your Complaint</label>

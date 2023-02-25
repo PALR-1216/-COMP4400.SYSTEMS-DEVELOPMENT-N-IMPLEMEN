@@ -17,16 +17,15 @@
     <!-- if has complaint show a container my complaint  -->
     <div class="row">
 
-    <div class="col">
-    <h3>Welcome Pedro!</h3>
-    
-
+    <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:5px">
+    <h3><span class="bi bi-person"></span> Welcome Pedro!</h3>
+    <h3>My Complaints</h3>
     </div>
 
     
 
-        <div class="col">
-        <h2>Next bill Due by 11/24/2023</h2>
+        <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:5px">
+        <h2>Next billing by <strong>11/24/2023</strong></h2>
         </div>
     </div>
 

@@ -104,7 +104,7 @@
                   </div>
                 </div>
               </form>
-              <input type="button" value="Proceed to payment" class="btn btn-primary btn-block btn-lg" />
+              <a type="button" href="InvoiceReceipt.php" class="btn btn-primary btn-block btn-lg">Pay Now</a>
             </div>
           </div>
 
