@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Pay Bill</title>
 </head>
@@ -30,7 +31,7 @@
             <div class="d-flex pt-2">
               <div>
                 <p>
-                  <b>Due Date: <span class="text-success">12/24/2023</span></b>
+                  <b>Due Date: <span class="text-danger">12/24/2023</span></b>
                 </p>
               </div>
             </div>
@@ -54,10 +55,16 @@
               </div>
             </div>
             
-            <p>
-              Insurance claims and all necessary dependencies will be submitted to your
-              insurer for the coverred portion of this order
-            </p>
+
+            <div class="d-flex">
+              <div>
+                <p>
+                  <b>Intereses <span class="text-danger">$50</span></b>
+                </p>
+              </div>
+            </div>
+
+           
 
             <hr />
             <div class="pt-2">
@@ -81,7 +88,7 @@
                   </div>
                   <div class="rounded border d-flex w-100 p-3 align-items-center">
                     <p class="mb-0">
-                      <i class="fab fa-cc-visa fa-lg text-primary pe-2"></i>Visa Debit
+                      <i class="fab fa-cc-mastercard fa-lg text-dark pe-2"></i>Visa Debit
                       Card
                     </p>
                     <div class="ms-auto">************3456</div>

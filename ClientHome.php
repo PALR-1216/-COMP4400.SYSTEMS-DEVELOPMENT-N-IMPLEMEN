@@ -11,29 +11,37 @@
     <title>Welcome User</title>
 </head>
 <body>
-    <!-- <div class="container"> -->
+
+<h3><span class="bi bi-person"></span> Welcome User <strong>Pedro!</strong></h3>
+    <div class="container">
     
 
     <!-- if has complaint show a container my complaint  -->
     <div class="row">
 
-    <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:5px">
-    <h3><span class="bi bi-person"></span> Welcome Pedro!</h3>
-    <h3>My Complaints</h3>
-    </div>
+    <!-- <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:5px">
+   
+
+    </div> -->
 
     
 
         <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:5px">
-        <h2>Next billing by <strong>11/24/2023</strong></h2>
+        <h2>Your Balance</h2>
+        <h4 class="text-success" style="font-weight: bold;">$500.00</h4>
+        <h5 class="text-danger">Past Due <strong>3/24/2023</strong></h5>
+        <a class="btn btn-danger" href="ClientPay.php">Pay Now</a>
+
+
+        </div>
+
+
+        <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:5px">
+        <h2>Next billing Due <strong>11/24/2023</strong></h2>
         </div>
     </div>
 
-
-
-
-
-    <!-- </div> -->
+    </div>
     
 
     

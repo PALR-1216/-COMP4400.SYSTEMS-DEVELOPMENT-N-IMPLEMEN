@@ -31,7 +31,7 @@
                                     <td class="content-block">
                                         <table class="invoice">
                                             <tbody><tr>
-                                                <td>Pedro Lorenzo<br>Invoice #12345<br>3/01/2023</td>
+                                                <td>Pedro Lorenzo<br>Invoice #100<br>3/01/2023</td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -60,7 +60,7 @@
                                 </tr>
                                 <tr>
                                     <td class="content-block">
-                                        <a href="#">View in browser</a>
+                                        <a href="#">Download Invoice as PDF</a>
                                     </td>
                                 </tr>
                                 <tr>

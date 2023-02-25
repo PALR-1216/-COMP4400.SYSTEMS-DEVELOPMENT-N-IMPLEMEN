@@ -28,18 +28,14 @@
           <li class="nav-item">
             <a class="nav-link" href="ClientComplaint.php">Make a Complaint</a>
           </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="allTenants.php" tabindex="-1" aria-disabled="true">My Balance</a>
-          </li>
-
+        
 
           <li class="nav-item">
             <a class="nav-link" href="ClientPay.php" tabindex="-1" aria-disabled="true">Pay Now</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="Expenses.php">My Previous Bills</a>
+            <a class="nav-link" href="ClientAllInvoice.php">My Previous Bills</a>
           </li>
 
         
