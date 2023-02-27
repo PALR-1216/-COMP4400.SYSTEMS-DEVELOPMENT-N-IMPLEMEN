@@ -15,7 +15,7 @@
 	defaultView: 'month',
 	events: [
       {
-        title: 'Pay Day',
+        title: 'Due Day',
         start: '2023-03-01'
       }
       ] 
