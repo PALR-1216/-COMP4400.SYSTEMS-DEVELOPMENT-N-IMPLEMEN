@@ -35,6 +35,12 @@
 
         </div>
 
+        <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:5px">
+    <?php include("ClientCalendar.php"); ?>
+    <br>
+    
+    </div>
+
 
         <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:5px">
         <h2 style="text-align: center;">Complaints</h2>
@@ -60,14 +66,11 @@
 
 
   
-    <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:5px">
-    <?php include("ClientCalendar.php"); ?>
-    <br>
-    </div>
+   
 
     <div class="row">
         <div class="col">
-            <?php include('ClientChart.php');?>
+     
         </div>
     </div>
 

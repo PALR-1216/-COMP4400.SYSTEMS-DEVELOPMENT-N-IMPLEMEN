@@ -38,6 +38,10 @@
             <a class="nav-link" href="ClientAllInvoice.php">My Previous Bills</a>
           </li>
 
+
+          <li class="nav-item">
+            <a class="nav-link" href="ClientChart.php">Total Paid</a>
+          </li>
         
 
 
