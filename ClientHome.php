@@ -58,7 +58,7 @@
                 <tr class="table-success">
                     <th class="bi bi-check2-circle">Solved</th>
                     <th>The Water comes out Cold</th>
-                    <th>I will get that fixed by Tomorrow</th>
+                    <th>It will get fixed by Tomorrow</th>
                 </tr>
             </tbody>
         </table>

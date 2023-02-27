@@ -94,7 +94,7 @@
 
             <div class="rounded d-flex flex-column p-2" style="background-color: #f8f9fa;">
               <div class="p-2 me-3">
-                <h4>Order Recap</h4>
+                <h4>Invoice Recap</h4>
                 
               </div>
 
@@ -106,13 +106,13 @@
               <div class="border-top px-2 mx-2"></div>
               <div class="p-2 d-flex pt-3">
                 <div class="col-8">Insurance</div>
-                <div class="ms-auto"><b>$50.76</b></div>
+                <div class="ms-auto"><b>$71.76</b></div>
               </div>
               <div class="p-2 d-flex">
                 <div class="col-8">
                 Maintenance <span class="fa fa-question-circle text-dark"></span>
                 </div>
-                <div class="ms-auto"><b>$71.76</b></div>
+                <div class="ms-auto"><b>$100</b></div>
               </div>
               <div class="border-top px-2 mx-2"></div>
               <div class="p-2 d-flex pt-3">
