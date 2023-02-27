@@ -42,6 +42,19 @@
             <a class="nav-link" href="TotalIncome.php">Total Monthly Income</a>
           </li>
 
+<!-- 
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Reports
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">All Tenants Report</a></li>
+            <li><a class="dropdown-item" href="#">All Complaints Report</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">All Income Report</a></li>
+          </ul>
+        </li> -->
+
         
 
 
