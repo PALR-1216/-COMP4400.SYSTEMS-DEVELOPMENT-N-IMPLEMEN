@@ -42,15 +42,15 @@
                                                         </tr>
                                                         <tr>
                                                             <td>Maintenance</td>
-                                                            <td class="alignright">$ 40.00</td>
+                                                            <td class="alignright">$ 100.00</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Insurance</td>
-                                                            <td class="alignright">$ 30.00</td>
+                                                            <td class="alignright">$ 71.76</td>
                                                         </tr>
                                                         <tr class="total">
                                                             <td class="alignright" width="80%">Total</td>
-                                                            <td class="alignright">$ 570.00</td>
+                                                            <td class="alignright">$ 671.76</td>
                                                         </tr>
                                                     </tbody></table>
                                                 </td>
