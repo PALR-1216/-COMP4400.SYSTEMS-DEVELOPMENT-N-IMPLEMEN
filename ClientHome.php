@@ -26,28 +26,53 @@
 
     
 
-        <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:5px">
-        <h2>Your Balance</h2>
-        <h4 class="text-success" style="font-weight: bold;">$500.00</h4>
-        <h5 class="text-danger">Past Due <strong>3/24/2023</strong></h5>
+        <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:5px; text-align:center;">
+        <h2 style="text-align: center;">Your Balance</h2>
+        <h5 class="text-success" style="font-weight: bold;">Amount: $500.00</h5>
+        <h5 class="text-danger">Interest: $45</h5>
+        <h4 class="text-danger">Past Due: <strong>3/24/2023</strong></h4>
         <a class="btn btn-danger" href="ClientPay.php">Pay Now</a>
 
-
         </div>
 
 
         <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:5px">
-        <h2>Next billing Due <strong>11/24/2023</strong></h2>
+        <h2 style="text-align: center;">Complaints</h2>
+        <!-- if has complaint show if no then show nothing -->
+        <table class="table table-bordered table-responsive">
+            <thead class="table-dark">
+                <tr>
+                    <th>Complaint Status</th>
+                    <th>Complaint</th>
+                    <th>Complaint Response</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="table-success">
+                    <th class="bi bi-check2-circle">Solved</th>
+                    <th>The Water comes out Cold</th>
+                    <th>I will get that fixed by Tomorrow</th>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+
+  
+    <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:5px">
+    <?php include("ClientCalendar.php"); ?>
+    <br>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <?php include('ClientChart.php');?>
         </div>
     </div>
-
-    </div>
-    
-
-    
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.4/index.global.min.js'></script>
 </body>
 </html>

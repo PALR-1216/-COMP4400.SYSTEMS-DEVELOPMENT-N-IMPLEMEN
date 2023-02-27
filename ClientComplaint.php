@@ -24,6 +24,29 @@
         <button style="margin-top:10px" type="submit" class="btn btn-primary">Submit Complaint</button>
     </div>
 </form>
+
+<div class="container">
+
+
+<table class="table table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Complaint ID</th>
+                    <th>Complaint Status</th>
+                    <th>Complaint</th>
+                    <th>Complaint Response</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="table-success">
+                    <th>11</th>
+                    <th class="bi bi-check2-circle">Solved</th>
+                    <th>The Water comes out Cold</th>
+                    <th>I will get that fix by Tomorrow</th>
+                </tr>
+            </tbody>
+        </table>
 </div>
 
 

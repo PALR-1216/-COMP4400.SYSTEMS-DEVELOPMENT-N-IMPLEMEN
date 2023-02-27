@@ -59,7 +59,7 @@
             <div class="d-flex">
               <div>
                 <p>
-                  <b>Intereses <span class="text-danger">$50</span></b>
+                  <b>Interest <span class="text-danger">$45</span></b>
                 </p>
               </div>
             </div>
@@ -68,40 +68,12 @@
 
             <hr />
             <div class="pt-2">
-              <div class="d-flex pb-2">
-                <div class="ms-auto">
-                  <p class="text-primary">
-                    <a  href="AddClientCard.php" class="fas fa-plus-circle text-primary pe-1">Add payment card</a>
-                  </p>
-                </div>
-              </div>
-              <p>
-                This is an estimate for the portion of your order (not covered by
-                insurance) due today . once insurance finalizes their review refunds
-                and/or balances will reconcile automatically.
-              </p>
+             
+              
               <form class="pb-3">
-                <div class="d-flex flex-row pb-3">
-                  <div class="d-flex align-items-center pe-2">
-                    <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1"
-                      value="" aria-label="..." checked />
-                  </div>
-                  <div class="rounded border d-flex w-100 p-3 align-items-center">
-                    <p class="mb-0">
-                      <i class="fab fa-cc-mastercard fa-lg text-dark pe-2"></i>Visa Debit
-                      Card
-                    </p>
-                    <div class="ms-auto">************3456</div>
-                  </div>
-                </div>
-
-                <!-- if no card then show Big button add Card -->
 
                 <div class="d-flex flex-row">
-                  <div class="d-flex align-items-center pe-2">
-                    <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel2"
-                      value="" aria-label="..." />
-                  </div>
+                 
                   <div class="rounded border d-flex w-100 p-3 align-items-center">
                     <p class="mb-0">
                       <i class="fab fa-cc-mastercard fa-lg text-dark pe-2"></i>Mastercard
@@ -129,13 +101,6 @@
               <div class="p-2 d-flex">
                 <div class="col-8">Contracted Price</div>
                 <div class="ms-auto">$500</div>
-              </div>
-             
-           
-              <div class="border-top px-2 mx-2"></div>
-              <div class="p-2 d-flex pt-3">
-                <div class="col-8">Total Deductible, Coinsurance, and Copay</div>
-                <div class="ms-auto">$80.00</div>
               </div>
              
               <div class="border-top px-2 mx-2"></div>

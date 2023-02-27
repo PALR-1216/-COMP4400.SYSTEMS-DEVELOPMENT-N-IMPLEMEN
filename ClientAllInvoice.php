@@ -1,4 +1,4 @@
-<?php include('_ClientNavbar.php'); ?>
+<?php include("_ClientNavbar.php");?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,8 +14,38 @@
 
 <!-- make a table that shows all your last invoces and when pressed show the InvoiceReceipt.php with the data of that date -->
 
-<h1>All My Invoice</h1>
+<h1 style="text-align: center;">Previous Invoices</h1>
 
+
+<table class="table table-bordered">
+
+<thead>
+    <tr>
+        <th>Invoice ID#</th>
+        <th>Date of Invoice</th>
+        <th>Total Rent Amount</th>
+        <th>See My Invoice</th>
+    </tr>
+</thead>
+
+<tbody>
+    <tr>
+        <th>#100</th>
+        <th>12/22/2023</th>
+        <th class="text-success">$500</th>
+        <th><a href="InvoiceReceipt.php">Invoice Receipt</a></th>
+    </tr>
+
+    <tr>
+        <th>#200</th>
+        <th>12/22/2023</th>
+        <th class="text-danger">$500 + $45 (Interest)</th>
+        <th><a href="InvoiceReceipt.php">Invoice Receipt</a></th>
+    </tr>
+
+
+</tbody>
+</table>
 
 
 

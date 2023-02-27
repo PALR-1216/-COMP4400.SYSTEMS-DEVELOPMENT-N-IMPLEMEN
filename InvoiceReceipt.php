@@ -61,6 +61,9 @@
                                 <tr>
                                     <td class="content-block">
                                         <a href="#">Download Invoice as PDF</a>
+                                        <br>
+                                        <a href="ClientHome.php">Go Home</a>
+
                                     </td>
                                 </tr>
                                 <tr>
