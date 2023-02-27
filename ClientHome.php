@@ -29,7 +29,7 @@
         <div class="col" style="background-color: #f6f6f6; margin:5px; border-radius:5px; text-align:center;">
         <h2 style="text-align: center;">Your Balance</h2>
         <h5 class="text-success" style="font-weight: bold;">Amount: $500.00</h5>
-        <h5 class="text-danger">Interest: $45</h5>
+        <h5 class="text-danger">Plus Interest: $25</h5>
         <h4 class="text-danger">Past Due: <strong>3/24/2023</strong></h4>
         <a class="btn btn-danger" href="ClientPay.php">Pay Now</a>
 
