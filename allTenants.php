@@ -40,7 +40,7 @@
             <th>100</th>
             <th>Paid</th>
             <th>Pedro</th>
-            <th>300</th>
+            <th>$300</th>
             <th>12/16/2021</th>
             <th>939-414-1159</th>
             <th>palr12162000@gmail.com</th>
@@ -54,7 +54,7 @@
             <th>110</th>
             <th>Due Amount(200)</th>
             <th>Alejandro</th>
-            <th>500</th>
+            <th>$500</th>
             <th>1/20/2020</th>
             <th>939-414-1159</th>
             <th>palr12162000@gmail.com</th>
