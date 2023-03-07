@@ -39,10 +39,35 @@
     <input type="Number" class="form-control" id="Apa_Number" name="Apa_Number">
   </div>
 
+  <h3 class="form-label">Select Gender</h3>
+  <div class="form-check">
+    
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="Men" checked>
+  <label class="form-check-label" for="Men">
+    Men
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="Woman" >
+  <label class="form-check-label" for="Woman">
+    Woman
+  </label>
+</div>
+
+
+
+
   <div class="mb-3">
     <label for="Phone_Number" class="form-label">Phone Number</label>
     <input type="number" class="form-control" id="Phone_Number">
   </div>
+
+
+  <div class="mb-3">
+    <label for="Phone_Number" class="form-label">Alternate Phone Number</label>
+    <input type="number" class="form-control" id="Alternate_Phone_Number">
+  </div>
+
 
   <div class="mb-3">
     <label for="Email" class="form-label">Email</label>
@@ -55,12 +80,20 @@
   <input type="Date" class="form-control" id="Due_Date" name="Due_Date">
 
   </div>
-  
+
   <div class="input-group mb-3">
-  <span class="input-group-text">Deposit $</span>
-  <input type="Number"  class="form-control" id="Deposit" name="Deposit">
+  <span class="input-group-text">Monthly Maintenance Fee</span>
+  <input type="number" class="form-control" id="MonthlyPay" name="MonthlyPay">
 
   </div>
+
+  <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Space for Comment's</label>
+    </div>
+    <br>
+
+ 
 
  
   <button type="submit" class="btn btn-primary">Add Tenant</button>

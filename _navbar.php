@@ -42,13 +42,26 @@
             <a class="nav-link" href="TotalIncome.php">Total Monthly Income</a>
           </li>
 
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="TotalIncome.php">Update Condo Info</a>
           </li>
 
           <li class="nav-item">
             <a class="nav-link" href="CondoInfo.php">Add Condo Info</a>
-          </li>
+          </li> -->
+
+          <!-- make a drop down menu here -->
+
+
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Condo Info
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="AddCondoInfo.php">Add Condo Info</a></li>
+            <li><a class="dropdown-item" href="#">Edit Condo Info</a></li>
+          </ul>
+        </li>
 
 
         
@@ -62,13 +75,6 @@
     </div>
   </nav>
 
-
-
-
-    
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-</body>
 
 <style>
   body{

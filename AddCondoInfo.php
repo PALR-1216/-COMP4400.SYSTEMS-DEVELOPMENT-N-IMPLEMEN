@@ -12,7 +12,7 @@
 </head>
 <body>
 <div class="container">
-    <h1 style="text-align: center;">Condo Info </h1>
+    <h1 style="text-align: center;">Add Condo Info </h1>
 
     <form>
         <div class="mb-3">
@@ -21,8 +21,28 @@
         </div>
 
         <div class="mb-3">
+            <label class="form-label">Owner Name</label>
+            <input class="form-control" type="text" placeholder="Name of Owner Here"/>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Owner Phone Number or Condo Phone Number</label>
+            <input class="form-control" type="number" placeholder="Phone Number Here"/>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Condo Email or Owner's Email</label>
+            <input class="form-control" type="email" placeholder="Email Here"/>
+        </div>
+
+        <div class="mb-3">
             <label class="form-label">Logo here</label>
             <input class="form-control" type="file" name="logo"/>
+        </div>
+
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Add Condo Info Bio</label>
         </div>
     </form>
 </div>
